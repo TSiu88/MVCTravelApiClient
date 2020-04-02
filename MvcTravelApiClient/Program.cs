@@ -7,6 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using RestSharp;
+using MvcTravelApiCall.Models;
 
 namespace MvcTravelApiCall
 {
@@ -14,6 +16,8 @@ namespace MvcTravelApiCall
     {
         public static void Main(string[] args)
         {
+            // var apiCallTask = ApiHelper.GetAll();
+            // var result = apiCallTask.Result;
             CreateWebHostBuilder(args).Build().Run();
         }
 

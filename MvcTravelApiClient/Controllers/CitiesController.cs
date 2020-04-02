@@ -6,12 +6,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MvcTravelApiCall.Controllers
 {
-  public class ReviewsController : Controller
+  public class CitiesController : Controller
   {
     public IActionResult Index()
     {
-      var allReviews = Review.GetReviews();
-      return View(allReviews);
+      var allCities = City.GetCities();
+      return View(allCities);
     }
   }
 }
