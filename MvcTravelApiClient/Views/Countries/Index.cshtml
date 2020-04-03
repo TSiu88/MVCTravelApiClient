@@ -1,4 +1,4 @@
-@* <h1>All Countries:</h1>
+<h1>All Countries:</h1>
 
 <ol>
   @foreach(Country country in Model)
@@ -7,7 +7,7 @@
       <li>ID: @country.CountryId</li>
       <li>Title: @country.CountryName</li>
     </ul>
-    <a href="/Countries/Details/@(country.CountryId)"><p>View Details</p></a>
+    @* <a href="/Countries/Details/@(country.CountryId)"><p>View Details</p></a> *@
     <br>
   }
-</ol> *@
+</ol>
