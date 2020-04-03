@@ -16,8 +16,6 @@ namespace MvcTravelApiCall
     {
         public static void Main(string[] args)
         {
-            // var apiCallTask = ApiHelper.GetAll();
-            // var result = apiCallTask.Result;
             CreateWebHostBuilder(args).Build().Run();
         }
 
